@@ -1,0 +1,65 @@
+:root {
+    --primary: #ccdad1;
+    --secondary: #dce9d5;
+    --tertiary: #788585;
+    --light-dark: #a1a0a1;
+    --dark: #201110;
+    --border-radius: .3rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary);
+    margin: 0;
+    padding: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: var(--dark);
+    line-height: 1.5;
+    font-size: 24px;
+}
+
+main {
+    margin: 20px auto;
+    width: 94%;
+}
+/* CARDS */
+                  
+.card {
+    margin: 0 0 20px 0;
+    border: 2px solid var(--dark);
+    border-radius: var(--border-radius);
+}
+
+.card-header {
+    color: var(--primary);
+    background-color: var(--dark);
+    padding: 1%;
+    border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
+}
+
+.card-body {
+    padding: 1%;
+}
+.link {
+    color: var(--light-dark);
+}
+
+.login-link {
+    color: var(--dark);
+}
+
+h3 {
+     font-weight: 700;
+     margin: 0;
+     color: var(--dark);
+    line-height: 1.25;
+}
+h4 {
+    font-weight: 700;
+    margin: 0;
+    color: var(--light-dark);
+    line-height: 1.25;
+}
